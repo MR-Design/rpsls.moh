@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DC50695D-41FE-4A84-A8D6-8911E54AE8FE}</ProjectGuid>
+    <ProjectGuid>{EF194148-D2F8-42CD-AEE2-7789F2A4BBCF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>rpsls_</RootNamespace>
-    <AssemblyName>rpsls_</AssemblyName>
+    <RootNamespace>RPSLS_</RootNamespace>
+    <AssemblyName>RPSLS_</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Game.cs" />
+    <Compile Include="Players.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

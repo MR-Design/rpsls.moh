@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("rpsls_")]
+[assembly: AssemblyTitle("RPSLS_")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("rpsls_")]
+[assembly: AssemblyProduct("RPSLS_")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("dc50695d-41fe-4a84-a8d6-8911e54ae8fe")]
+[assembly: Guid("ef194148-d2f8-42cd-aee2-7789f2a4bbcf")]
 
 // Version information for an assembly consists of the following four values:
 //
