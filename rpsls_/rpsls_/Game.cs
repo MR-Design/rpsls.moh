@@ -6,19 +6,21 @@ using System.Threading.Tasks;
 
 namespace RPSLS_
 {
-   
+
     class Game
     {
 
-
-        private readonly int player1Choice;
-        private readonly int player2Choice;
-
-        public Game(int Player1Hand, int Player2Hand)
+        class NoComputer
         {
-            player1Choice = Player1Hand;
-            player2Choice = Player2Hand;
-            Play();
+
+            private readonly int player1Choice;
+            private readonly int player2Choice;
+
+            public Game.NoComputer(int Player1Hand, int Player2Hand)
+            {
+                    player1Choice = Player1Hand;
+                    player2Choice = Player2Hand;
+                    Play();
         }
 
         public void Play()
@@ -65,7 +67,7 @@ namespace RPSLS_
                     break;
             }
 
-             string player1Choice(int Num)
+            string player1Choice(int Num)
             {
                 switch (Num)
                 {
@@ -82,21 +84,17 @@ namespace RPSLS_
                 }
                 return null;
             }
+        }
+
+    }
 
 
+    class Computer : Game.NoComputer
+    {
+        CoputerHand = Player2Hand
 
+    }  
 
-
-
-
-
-
-
-
-
-
-
-        }    }
 }
 
 
