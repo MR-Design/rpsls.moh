@@ -21,6 +21,8 @@ namespace RPSLS_
         //  d = 2 or d = 4 => b wins
         // d = 0 => tie
 
+        public int results = (5 + (playerChoice1) - (playerChoice2)) % 5;
+
 
     }
 }

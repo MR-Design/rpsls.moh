@@ -10,10 +10,10 @@ namespace RPSLS_
     {
         static void Main(string[] args)
         {
-            Players player1 = new Players();
-
-           player1.userInput();
-            Console.ReadKey();
+           // That's how I call a Function 
+                   // Players player1 = new Players();
+                   // player1.userInput();
+                   // Console.ReadKey();
         }
     }
 }

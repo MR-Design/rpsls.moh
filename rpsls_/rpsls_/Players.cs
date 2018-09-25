@@ -28,18 +28,36 @@ namespace RPSLS_
             {
 
                 Console.WriteLine("Awsome you're gonna play the computer!! /n");
+                Console.WriteLine(Player1 + "Please Chose a Hand");
+                string player1Choice = Console.ReadLine();
 
-
-                //do
             }
             else
             {
-                Console.WriteLine("Player Two Please enter your name:");
-                string player2 = Console.ReadLine();
+
+                Console.WriteLine("Please Enter Your Name");
+                string Player2 = Console.ReadLine();
+                Console.WriteLine(Player2 + "Please Chose a Hand");
+                string player1Choice = Console.ReadLine();
+
             }
 
 
         }
+
+      //  public string PlayerChoice()
+     //   {
+        
+          //  Console.WriteLine("Please Chose a hand");
+         //   string PlayersChoice = Console.ReadLine();
+         //   return PlayersChoice;
+
+       // }
+
+
+
+
+
 
     }
 }
