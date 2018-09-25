@@ -8,20 +8,22 @@ namespace RPSLS_
 {
     class Players
     {
-        // Asking User If they Wanna Play Agains Computer OR Friend.
+// Asking User If they Wanna Play Agains Computer OR Friend.
 
-        // Asking User  Names
+// Asking User  Names
 
         public  Players()
         {
         }
 
+
+  // User Input Function || Here I collect All Data From Users...
         public void userInput()
         {
             Console.WriteLine("Please Enter Your Name");
             string Player1 = Console.ReadLine();
 
-            Console.WriteLine(Player1 + "Do you Have someone to play agains ?/n Tape Yes Or No");
+            Console.WriteLine(Player1 + "Do you Have someone to play against ?/n Tape Yes Or No");
             string numOfPlayers = Console.ReadLine();
 
             if (numOfPlayers == "No")
@@ -38,12 +40,18 @@ namespace RPSLS_
                 Console.WriteLine("Please Enter Your Name");
                 string Player2 = Console.ReadLine();
                 Console.WriteLine(Player2 + "Please Chose a Hand");
-                string player1Choice = Console.ReadLine();
+                string player2Choice = Console.ReadLine();
 
             }
 
 
         }
+
+
+
+
+
+
 
       //  public string PlayerChoice()
      //   {
