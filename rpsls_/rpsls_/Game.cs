@@ -10,7 +10,13 @@ namespace RPSLS_
     class Game
     {
 
-        class NoComputer
+  // Method for Computer Playing!!
+
+
+
+
+
+        public class NoComputer
         {
 
             private readonly int player1Choice;
@@ -21,7 +27,7 @@ namespace RPSLS_
                     player1Choice = Player1Hand;
                     player2Choice = Player2Hand;
                     Play();
-        }
+             }
 
         public void Play()
         {
@@ -85,20 +91,33 @@ namespace RPSLS_
                 return null;
             }
         }
+        public class Computer 
+        {
+
+
+    public class NoComputer : Computer
+    {
+               public void computerPlay()
+                {
+                
+
+                }
+
+
+            }
 
     }
 
+        
+    }
 
-    class Computer : Game.NoComputer
-    {
-        CoputerHand = Player2Hand
 
-    }  
+    
 
 }
 
 
-
+// I Need to check Classes inside classes.
             // In This Methods I need To Convert User Choices From my Users Data  to Interger ...
             // public string getUserHand;
             // constructor 

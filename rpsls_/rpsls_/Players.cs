@@ -44,23 +44,30 @@ namespace RPSLS_
 
             }
 
-
+            
+            
         }
 
 
 
 
+        public void compuerChoice()
+        {
+
+            Random rnd = new Random();
+            int computerHand = rnd.Next(1, 5);
+            return;
+        }
 
 
+        //  public string PlayerChoice()
+        //   {
 
-      //  public string PlayerChoice()
-     //   {
-        
-          //  Console.WriteLine("Please Chose a hand");
-         //   string PlayersChoice = Console.ReadLine();
-         //   return PlayersChoice;
+        //  Console.WriteLine("Please Chose a hand");
+        //   string PlayersChoice = Console.ReadLine();
+        //   return PlayersChoice;
 
-       // }
+        // }
 
 
 
