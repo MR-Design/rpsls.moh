@@ -9,13 +9,19 @@ namespace RPSLS_
    
     class Game
     {
+       
+        // In This Methods I need To Convert User Choices From my Users Data  to Interger ...
+        public string getUserHand;
+        // constructor 
+        public Game()
+        {
+            getUserHand = player1Choice;
 
-  // In This Function I need To Convert User Choices From my Users Data  to Interger ...
+        }
 
 
 
-
-  // Hands Rulles  Who win.
+        // Hands Rulles  Who win.
         enum UserChoice
         {
             Rock = 1,
@@ -33,17 +39,16 @@ namespace RPSLS_
 
         // int results = (5 + (hand1)-(hans2)) % 5;
 
-        public string getUserHand;
-        // constructor 
-        public Game()
-        {
-            getUserHand = player1Choice;
-            
-        }
+ 
 
- // Function for the score ...
+        // Methods for the score ...
 
- // Function to decied the Winner...
+     
+
+
+
+        // Methods to decied the Winner...
+
 
     }
 }

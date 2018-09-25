@@ -17,8 +17,8 @@ namespace RPSLS_
         }
 
 
-  // User Input Function || Here I collect All Data From Users...
-        public void userInput()
+        // User Input Methods || Here I collect All Data From Users...
+        public void UserInput()
         {
             Console.WriteLine("Please Enter Your Name");
             string Player1 = Console.ReadLine();
@@ -29,9 +29,9 @@ namespace RPSLS_
             if (numOfPlayers == "No")
             {
 
-                Console.WriteLine("Awsome you're gonna play the computer!! /n");
-                Console.WriteLine(Player1 + "Please Chose a Hand");
-                string player1Choice = Console.ReadLine();
+                Console.WriteLine("Awsome !! you're gonna play the computer!! /n");
+                Console.WriteLine(Player1 + "Please Chose a hand (1)Rock (2)Paper (3)Scissor (4)Lizard (5)Spock");
+                int player1Choice = Convert.ToInt32(Console.ReadLine());
 
             }
             else
@@ -39,8 +39,8 @@ namespace RPSLS_
 
                 Console.WriteLine("Please Enter Your Name");
                 string Player2 = Console.ReadLine();
-                Console.WriteLine(Player2 + "Please Chose a Hand");
-                string player2Choice = Console.ReadLine();
+                Console.WriteLine(Player2 + "Please Chose a hand (1)Rock (2)Paper (3)Scissor (4)Lizard (5)Spock");
+                int player2Choice = Convert.ToInt32(Console.ReadLine());
 
             }
 
